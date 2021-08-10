@@ -1,0 +1,131 @@
+body {
+    Font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: hsl(0, 0%, 95%)
+}
+.page-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+
+
+    
+}
+
+.box-left {
+
+    background-color: hsl(31, 77%, 52%);
+    
+
+}
+
+.box-center {
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.box-right {
+    background-color:hsl(179, 100%, 13%);
+}
+h2 {
+    color: hsl(0, 0%, 95%);
+}
+
+.p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.box-left h2 {
+    margin: 0px 20px;
+}
+ .box-left svg {
+     margin: 50px;
+ }
+
+
+.box-left a{
+    color:hsl(31, 77%, 52%);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    align-self: auto;
+}
+.box-left a:hover{
+    border:1px  solid white;
+    background:none;
+    color: white;
+}
+.box-left p{
+    padding-bottom: 100px;
+    margin-left: 30px;
+}
+
+    
+.box-center {
+    background-color:hsl(184, 100%, 22%) ;
+    padding: 50px;
+    color: white;   
+
+}
+
+.box-center a{
+    color:hsl(184, 100%, 22%) ;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.box-center a:hover {
+    border:1px  solid white;
+    background:none;
+    color: white;
+}
+
+.box-center p{
+    padding-bottom: 100px;
+}
+
+.box-right{
+    background-color:  hsl(179, 100%, 13%);
+    padding: 50px;
+    color: white;
+}
+
+.box-right a{
+    color: hsl(179, 100%, 13%);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.box-right a:hover {
+    border:1px  solid white;
+    background:none;
+    color: white;
+}
+
+.box-right p{
+    padding-bottom: 100px;  
+}
+
+
+
+
+
